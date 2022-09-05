@@ -33,7 +33,7 @@ async def ForceSub(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton("🤖 Contact Us", url="https://t.me/pro_morningstar")
                     ],
                     [
                         InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshFsub")
