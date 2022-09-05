@@ -10,11 +10,11 @@ RUN pip3 install -U pip
 
 RUN cd /
 
-RUN git clone https://github.com/hackerheroOP/VideoMerge-Bot
+RUN git clone https://github.com/hackerheroOP/VideoMerge
 
-RUN cd VideoMerge-Bot
+RUN cd VideoMerge
 
-WORKDIR /VideoMerge-Bot
+WORKDIR /VideoMerge
 
 RUN pip3 install -U -r requirements.txt
 
