@@ -339,7 +339,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
                     await asyncio.sleep(e.x)
                     invite_link = await bot.create_chat_invite_link(chat_id=(int(Config.UPDATES_CHANNEL) if Config.UPDATES_CHANNEL.startswith("-100") else Config.UPDATES_CHANNEL))
                 await cb.message.edit(
-                    text="**You Still Didn't Join ☹️, Please Join My Updates Channel to use this Bot!**\n\nDue to Overload, Only Channel Subscribers can use the Bot!",
+                    text="**Fuck Off! You are not authorised**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
